@@ -59,41 +59,14 @@
       width: 400px;
       height: 300px;
     }
-    .krug {
-      position: absolute;
-      left: 208px;
-      top: 94px;
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      background-color: rgb(44, 32, 68);
-    }
-    .krug2 {
-      position: absolute;
-      left: 232px;
-      top: 118px;
-      width: 170px;
-      height: 170px;
-      border: 1px solid rgb(89, 64, 109);
-      border-radius: 50%;
-    }
-    .nadpis {
-      position: absolute;
-      left: 24px;
-      top: 23px;
-      font-family: Arial, sans-serif;
-      font-size: 10px;
-      letter-spacing: 2px;
-      color: rgb(209, 236, 169);
-    }
     .zagolovok {
       position: absolute;
       left: 22px;
-      top: 47px;
-      width: 242px;
+      top: 35px;
+      width: 355px;
       height: 82px;
       font-family: Arial, sans-serif;
-      font-size: 38px;
+      font-size: 30px;
       font-weight: bold;
       line-height: 41px;
       color: rgb(255, 244, 220);
@@ -101,7 +74,7 @@
     .tekst {
       position: absolute;
       left: 24px;
-      top: 147px;
+      top: 85px;
       width: 216px;
       font-family: Arial, sans-serif;
       font-size: 12px;
@@ -110,24 +83,24 @@
     }
     .popkorn {
       position: absolute;
-      left: 234px;
-      top: 102px;
+      left: 230px;
+      top: 105px;
       width: 154px;
       height: 185px;
       transform: rotateZ(-9deg);
     }
     .bilet {
       position: absolute;
-      left: 295px;
-      top: 27px;
+      left: 50px;
+      top: 140px;
       width: 76px;
       height: 42px;
       transform: translate3d(0px, 0px, 0px) rotateZ(14deg);
     }
     .zvezda {
       position: absolute;
-      left: 200px;
-      top: 197px;
+      left: 160px;
+      top: 155px;
       width: 37px;
       height: 37px;
       transform: translate3d(0px, 0px, 0px) rotateZ(-12deg);
@@ -271,11 +244,8 @@
     <gwd-pagedeck class="gwd-page-container" id="pagedeck">
       <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="400px" data-gwd-height="300px">
         <div class="gwd-page-content gwd-page-size">
-          <div class="krug" id="krug"></div>
-          <div class="krug2" id="krug2"></div>
-          <p class="nadpis" id="nadpis">ВЕЧЕР ДЛЯ СЕБЯ</p>
-          <h1 class="zagolovok" id="zagolovok">Кино после<br>заката</h1>
-          <p class="tekst" id="tekst">Четыре истории, ради которых<br>стоит отложить все дела.</p>
+          <h1 class="zagolovok" id="zagolovok">Кино на вечер</h1>
+          <p class="tekst" id="tekst">Подборка из четырёх фильмов</p>
           <gwd-image id="popkorn" source="assets/popkorn.png" scaling="contain" class="popkorn" alt="Попкорн"></gwd-image>
           <gwd-image id="bilet" source="assets/bilet.png" scaling="contain" class="bilet gwd-gen-biletgwdanimation" alt="Билет в кино"></gwd-image>
           <gwd-image id="zvezda" source="assets/zvezda.png" scaling="contain" class="zvezda gwd-gen-zvezdagwdanimation" alt="Звезда"></gwd-image>

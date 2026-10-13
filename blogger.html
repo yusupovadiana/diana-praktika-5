@@ -55,41 +55,14 @@ body {
     width: 400px;
     height: 300px;
 }
-.krug {
-    position: absolute;
-    left: 208px;
-    top: 94px;
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    background-color: rgb(44, 32, 68);
-}
-.krug2 {
-    position: absolute;
-    left: 232px;
-    top: 118px;
-    width: 170px;
-    height: 170px;
-    border: 1px solid rgb(89, 64, 109);
-    border-radius: 50%;
-}
-.nadpis {
-    position: absolute;
-    left: 24px;
-    top: 23px;
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    letter-spacing: 2px;
-    color: rgb(209, 236, 169);
-}
 .zagolovok {
     position: absolute;
     left: 22px;
-    top: 47px;
-    width: 242px;
+    top: 35px;
+    width: 355px;
     height: 82px;
     font-family: Arial, sans-serif;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 41px;
     color: rgb(255, 244, 220);
@@ -97,7 +70,7 @@ body {
 .tekst {
     position: absolute;
     left: 24px;
-    top: 147px;
+    top: 85px;
     width: 216px;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -106,24 +79,24 @@ body {
 }
 .popkorn {
     position: absolute;
-    left: 234px;
-    top: 102px;
+    left: 230px;
+    top: 105px;
     width: 154px;
     height: 185px;
     transform: rotateZ(-9deg);
 }
 .bilet {
     position: absolute;
-    left: 295px;
-    top: 27px;
+    left: 50px;
+    top: 140px;
     width: 76px;
     height: 42px;
     transform: translate3d(0px, 0px, 0px) rotateZ(14deg);
 }
 .zvezda {
     position: absolute;
-    left: 200px;
-    top: 197px;
+    left: 160px;
+    top: 155px;
     width: 37px;
     height: 37px;
     transform: translate3d(0px, 0px, 0px) rotateZ(-12deg);
@@ -414,11 +387,8 @@ gwd.actions.gwdGenericad=gwd.actions.gwdGenericad||{};gwd.actions.gwdGenericad.e
     &lt;gwd-pagedeck class=&quot;gwd-page-container&quot; id=&quot;pagedeck&quot;&gt;
       &lt;gwd-page id=&quot;page1&quot; class=&quot;gwd-page-wrapper gwd-page-size gwd-lightbox&quot; data-gwd-width=&quot;400px&quot; data-gwd-height=&quot;300px&quot;&gt;
         &lt;div class=&quot;gwd-page-content gwd-page-size&quot;&gt;
-          &lt;div class=&quot;krug&quot; id=&quot;krug&quot;&gt;&lt;/div&gt;
-          &lt;div class=&quot;krug2&quot; id=&quot;krug2&quot;&gt;&lt;/div&gt;
-          &lt;p class=&quot;nadpis&quot; id=&quot;nadpis&quot;&gt;ВЕЧЕР ДЛЯ СЕБЯ&lt;/p&gt;
-          &lt;h1 class=&quot;zagolovok&quot; id=&quot;zagolovok&quot;&gt;Кино после&lt;br&gt;заката&lt;/h1&gt;
-          &lt;p class=&quot;tekst&quot; id=&quot;tekst&quot;&gt;Четыре истории, ради которых&lt;br&gt;стоит отложить все дела.&lt;/p&gt;
+          &lt;h1 class=&quot;zagolovok&quot; id=&quot;zagolovok&quot;&gt;Кино на вечер&lt;/h1&gt;
+          &lt;p class=&quot;tekst&quot; id=&quot;tekst&quot;&gt;Подборка из четырёх фильмов&lt;/p&gt;
           &lt;gwd-image id=&quot;popkorn&quot; source=&quot;https://raw.githubusercontent.com/yusupovadiana/diana-praktika-5/8593859ec6666e9f87f0bc40474a49c08fbc45ea/assets/popkorn.png&quot; scaling=&quot;contain&quot; class=&quot;popkorn&quot; alt=&quot;Попкорн&quot;&gt;&lt;/gwd-image&gt;
           &lt;gwd-image id=&quot;bilet&quot; source=&quot;https://raw.githubusercontent.com/yusupovadiana/diana-praktika-5/8593859ec6666e9f87f0bc40474a49c08fbc45ea/assets/bilet.png&quot; scaling=&quot;contain&quot; class=&quot;bilet gwd-gen-biletgwdanimation&quot; alt=&quot;Билет в кино&quot;&gt;&lt;/gwd-image&gt;
           &lt;gwd-image id=&quot;zvezda&quot; source=&quot;https://raw.githubusercontent.com/yusupovadiana/diana-praktika-5/8593859ec6666e9f87f0bc40474a49c08fbc45ea/assets/zvezda.png&quot; scaling=&quot;contain&quot; class=&quot;zvezda gwd-gen-zvezdagwdanimation&quot; alt=&quot;Звезда&quot;&gt;&lt;/gwd-image&gt;
@@ -466,7 +436,6 @@ gwd.actions.gwdGenericad=gwd.actions.gwdGenericad||{};gwd.actions.gwdGenericad.e
         handleAdInitialized, false);
     })();
   &lt;/script&gt;
-
 
 
 &lt;style&gt;
